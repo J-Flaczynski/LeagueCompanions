@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+}
+body {
+  background-color: #1d1b28;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #1a1825;
+  box-shadow: 0px 12px 4px rgba(0, 0, 0, 0.25);
+}
+.discordLogo {
+  width: 77px;
+  height: 54px;
+  margin-right: 2%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-left: 2%;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  filter: drop-shadow(0px 8px 4px rgba(0, 0, 0, 0.25));
+}
+
+.logo {
+  width: 91px;
+  height: 106px;
+}
+img {
+  max-width: 100%;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 314px;
+  background: url(../img/banner.png) center center / cover;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.filter-container {
+  width: 100%;
+  height: 300px;
+  background: #1a1825;
+  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+.filter-cta {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  line-height: 75px;
+  color: #c8ac6d;
+  text-shadow: 0px 13px 12px rgba(0, 0, 0, 0.25);
+}
+.filters {
+  gap: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60%;
+}
+.role-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100px;
+  height: 150px;
+}
+.role-container h1 {
+  margin-top: 10%;
+  color: #c8ac6d;
+  text-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+.roles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border: 3px solid #c8ac6d;
+  filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 50%;
+}
+.roles img {
+  margin-top: 10%;
+}
